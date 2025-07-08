@@ -10,7 +10,7 @@ async function createUser() {
   try {
     const user = await db.create("User", {
       // User details
-      username: "newUser",
+      username: "FER",
       email: "user@example.com",
       password: "securePassword", // Note: Store hashed passwords, not plain text
     });
